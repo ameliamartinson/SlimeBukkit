@@ -34,7 +34,6 @@ public class SlimeCommand implements CommandExecutor {
             } else {
                 player.sendMessage("Chunk " + xPos + ", " + zPos + " is NOT a slime chunk");
             }
-            player.sendMessage("seed: " + seed);
         }
 
         return true;
