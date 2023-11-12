@@ -1,0 +1,10 @@
+name: SlimeBukkit
+version: '${project.version}'
+main: slimebukkit.slimebukkit.SlimeBukkit
+api-version: 1.15
+authors: [ McStrugs ]
+
+commands:
+  slime:
+    description: detect slime chunks with a simple command
+    usage: /slime
